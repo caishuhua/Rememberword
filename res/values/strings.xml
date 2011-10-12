@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">记单词</string>
+	<string name="txt_extend_remember">展开记忆</string>
+	<string name="txt_grouping_remember">分组记忆</string>
+	<!--    <string name="play_word">自动播放</string>-->
+	<string name="sort_mode_time">按时间排序</string>
+	<string name="sort_mode_spell">按字母排序</string>
+	<string name="sort_mode_importance">按重要性排序</string>
+	<string name="display_detail">显示释义</string>
+	<string name="display_word">隐藏释义</string>
+	<string name="txt_all">全部</string>
+	<string name="txt_had_remembered">已记住</string>
+	<string name="txt_remembering">记忆中</string>
+	<string name="txt_not_remember">未记住</string>
+
+	<string name="txt_show_all">全部显示</string>
+	<string name="txt_show_importance">只显示重要的</string>
+	<string name="txt_show_unimportance">不显示不重要的</string>
+
+	<string name="txt_importance">重要</string>
+	<string name="txt_unimportance">不重要</string>
+
+	<string name="label_name">文件名：</string>
+	<string name="label_ok">确定</string>
+	<string name="label_delete">删除文件</string>
+	<string name="message_delete_confirm">您确定删除此文件吗？</string>
+	<string name="title_about">帮助</string>
+	<string name="label_cancel">取消</string>
+	<string name="message_about">此记单词软件采用科学的记单词方法，主要是将单词分类记忆做到高效记单词，单词可以按记忆状态为分为已记住和未记住，已记住的单词就没有必要每次在重新记忆，而应该多花时间重点记还没记住的单词.
+\n单词还可以把单词按重要性归类，某个单词不怎么常用，那么我们没有必要记得很熟悉，而经常用到的重点单词则必须牢记，通过这样分类达到科学的记单词，不信你试试！。
+\n使用方法，第一步按新增单词本，第二步长按某个单词本选择导入单词，导入单词现只支持有道词典的XML格式文件导入\n（金山词霸的单词本可以先导入有道词典）.
+\n默认所有单词单词重要性为"一般"，记忆状态为"记忆中".
+		\n开发者 Gmail:caishuhua1989@gmail.com
+	</string>
+	<string name="title_open_dialog">打开 -</string>
+	<string name="title_please_wait">请稍等 ...</string>
+	<string name="message_wait_for_open">正在导入...</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/row"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<TextView android:id="@+id/word_book_name"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:maxWidth="200dip" 
+		android:textSize="22sp"
+		android:layout_marginTop="10dip"
+		android:text="标题" />
+	<TextView android:id="@+id/word_book_createdate" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:layout_marginLeft="10dip" 
+		android:layout_marginTop="20dip"
+		android:text="xxxx年xx月xx日" />
+	<TextView android:id="@+id/word_book_id"
+		android:layout_width="0dip" android:layout_height="0dip"
+		android:visibility = "gone"	/>
+</RelativeLayout>
+

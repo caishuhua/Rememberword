@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ListView android:id="@+id/word_book_list"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:paddingLeft="5dip" android:paddingRight="5dip"
+		android:groupIndicator="@null" 
+		android:dividerHeight="3dip"
+		android:transcriptMode="disabled"
+		android:cacheColorHint="#00000000"
+		android:stackFromBottom="false"
+		 />
+		 
+		 
+	<RelativeLayout android:id="@+id/listFooter"
+		android:gravity="center_horizontal" android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:text="添加单词本" android:id="@+id/add_word_book"
+			android:layout_width="fill_parent" android:layout_height="45dip"
+			android:layout_marginLeft="4dip" android:layout_marginRight="4dip"
+			android:textColor="@android:color/black" android:textStyle="bold"
+			android:textSize="25dip" />
+	</RelativeLayout>
+</RelativeLayout>
+
